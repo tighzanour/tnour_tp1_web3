@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="./node_modules/bootstrap/dist/js/bootstrap.min.js"
+      defer
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>tp1 web3</title>
+
+    <style>
+      :root,
+      [data-bs-theme="dark"] {
+        --bs-danger-rgb: 145, 44, 44;
+        --bs-font-sans-serif: "Domine";
+      }
+    </style>
+  </head>
+  <body class="text-bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid px-1 mx-5">
+          <a class="navbar-brand" href="#">Critique+</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-end" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Oeuvres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">À propos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container mt-4">
+      <div class="row mb-4">
+        <h1 class="text-center">Critique de <i>''L'attaque des titans'' </i></h1>
+        <p class="lead text-center"><i>Oeuvre de Hajime Isayama</i></p>
+        <img
+          src="assets/banner.jpg"
+          class="w-100 h-50 rounded mb-4 object-fit-cover"
+        />
+      </div>
+      <div class="row text-bg-danger p-2 rounded">
+        <div class="col-8 mt-4 mb-3">
+          <p>
+            L’Attaque des Titans est un anime marquant par son intensité
+            dramatique et sa narration complexe. L’univers sombre, oppressant et
+            rempli de <strong>mystères</strong> capte rapidement l’attention du spectateur.
+            Chaque saison monte en puissance avec des retournements
+            scénaristiques majeurs, tout en explorant des thèmes comme la
+            <strong>liberté, la guerre, la manipulation et la survie</strong>. L’animation,
+            surtout dans les moments de combat, est fluide et spectaculaire, et
+            la bande sonore amplifie la tension de manière remarquable. C’est
+            une œuvre qui a profondément marqué la culture anime et qui reste
+            une <strong>référence</strong> dans le genre.
+          </p>
+          <p>
+            Un autre aspect marquant de l’anime est son approche <strong>psychologique</strong>
+            des personnages. Les héros comme Eren, Mikasa, Armin ou même les
+            antagonistes ne sont jamais figés dans un rôle unique de “gentil” ou
+            de “méchant”. Chacun est confronté à des dilemmes moraux et pousse
+            le spectateur à réfléchir sur la légitimité de leurs actions dans un
+            monde en guerre. Cette ambiguïté morale rend l’histoire plus
+            réaliste et donne <strong>une profondeur rare</strong> pour un shōnen.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card m-5" style="border: none">
+            <div class="card-body text-bg-danger text-center">
+              <h5 class="card-title"></h5>
+              <p><strong>Auteur: </strong> <a href="#"> <u style="color:rgb(142, 200, 255);"> Hajime Isayama</u></a> </p>
+              <p><strong>Première publication: </strong> <u>2009</u> </p>
+              <p><strong>Première diffusion: </strong> <u>2013</u> </p>
+              <p><strong>Studios: </strong> <a href="#"> <u style="color:rgb(142, 200, 255);"> Wit Studio et MAPPA</u></a> </p>
+              <span class="badge bg-danger"> <h1>★★★⯪☆</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+      <h2 class="mt-5 pb-4 text-center">Points forts et points faibles</h2>
+      <ul class="list-group">
+        <li class="list-group-item text-bg-success">
+          + Scénario profond avec des twists imprévisibles.
+        </li>
+        <li class="list-group-item text-bg-success">
+          + Animation de haute qualité, surtout dans les scènes de combat.
+        </li>
+        <li class="list-group-item">
+          - Rythme parfois inégal, avec des épisodes plus lents qui cassent la
+          tension.
+        </li>
+        <li class="list-group-item">
+          - Fin controversée, qui a divisé les fans
+        </li>
+      </ul>
+      <div class="container text-center pt-5">
+        <button type="button" class="btn btn-primary mb-5">
+          <h4 class="pt-2">Plus de critiques ➜
+        </button>
+      </div>
+      </div>
+    </div>
+
+    <footer class="text-bg-danger p-1 text-center">
+      <p class="mt-3">© Critique+ 2025</p>
+    </footer>
+  </body>
+</html>
